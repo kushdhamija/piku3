@@ -21,8 +21,7 @@ export default class Command extends BaseCommand {
         if (M.quoted?.sender) M.mentioned.push(M.quoted.sender)
             const user = M.mentioned[0] ? M.mentioned[0] : M.sender.jid
             const n = [
-            './assets/Pikachu/Pikachuu.mp4'
-                './assets/Pikachu/arabhai.webp'
+            './assets/Pikachu/Pikachuu.mp4
         ]
         let rin = n[Math.floor(Math.random() * n.length)]
         if (!parsedArgs.joined) {
@@ -40,10 +39,13 @@ export default class Command extends BaseCommand {
             }
             let text = `
 ╭─「check guide command *,guide*」
-│⋊ ᴜꜱᴇʀ: *${M.sender.username}*
-│⋊ ɴᴀᴍᴇ: PIKU
+│⋊ ᴜꜱᴇʀ Name: *${M.sender.username}*
+│⋊ Bot ɴᴀᴍᴇ: *Rj02-Bot by BHARAT*
 │⋊ ᴘʀᴇꜰɪx: ${this.client.config.prefix}
 │⋊ ᴏᴡɴᴇʀ: *${this.client.config.prefix}mods*
+|⋊ My insta : instagram.com//bharatkhajnani701
+|⋊ My GitHub : GitHub.comm//bharatk098
+|⋊ My Group : https://chat.whatsapp.com/Lsuy5fY91666hFqRaJ5xuy
 ╰────────────                            \n\n`
             const keys = Object.keys(categories)
             for (const key of keys)
@@ -56,7 +58,7 @@ export default class Command extends BaseCommand {
             mimetype: Mimetype.gif,
             caption: `${text} 
 ┌────────────┈❅
-│   🧨 *PIKU*
+│   🧨 *Rj02-Bot*
 │   ©️ Synthesized Infinity Botto
 └────────────┈⁂
 ❅┈[𝐇𝐚𝐯𝐞 𝐆𝐫𝐞𝐚𝐭 𝐃𝐚𝐲]┈❅

@@ -40,11 +40,11 @@ export default class Command extends BaseCommand {
             let text = `
 ╭─「check guide command *,guide*」
 │⋊ ᴜꜱᴇʀ Name: *${M.sender.username}*
-│⋊ Bot ɴᴀᴍᴇ: *Rj02-Bot by BHARAT*
+│⋊ Bot ɴᴀᴍᴇ: *Rj02-Bot*
 │⋊ ᴘʀᴇꜰɪx: ${this.client.config.prefix}
 │⋊ ᴏᴡɴᴇʀ: *${this.client.config.prefix}mods*
 |⋊ My insta : instagram.com//bharatkhajnani701
-|⋊ My GitHub : GitHub.comm//bharatk098
+|⋊ My GitHub : GitHub.comp//bharatk098
 |⋊ My Group : https://chat.whatsapp.com/Lsuy5fY91666hFqRaJ5xuy
 ╰────────────                            \n\n`
             const keys = Object.keys(categories)

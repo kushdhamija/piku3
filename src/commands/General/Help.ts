@@ -21,7 +21,7 @@ export default class Command extends BaseCommand {
         if (M.quoted?.sender) M.mentioned.push(M.quoted.sender)
             const user = M.mentioned[0] ? M.mentioned[0] : M.sender.jid
             const n = [
-            './assets/Pikachu/Pikachuu.mp4
+            './assets/Pikachu/Pikachuu.mp4'
         ]
         let rin = n[Math.floor(Math.random() * n.length)]
         if (!parsedArgs.joined) {
